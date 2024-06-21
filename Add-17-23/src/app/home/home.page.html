@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-icon name="home" slot="end"></ion-icon>
+    <ion-title >
+     APP BMI
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" [fullscreen]="true">
+<ion-card color="primary" class="ion-padding">
+  <img src="../../assets/ไอบาสเป็นไก่/432293951_338867872457910_6389053036780057279_n.jpg"/>
+ไอหนึ่งเป็นเกย์
+<ion-input label="ชื่อภาพ" color="danger"></ion-input>
+<br>
+<div class="ion-text-center">
+  <ion-button size="large" expand="block" shape="rounnd">
+    ตกลง
+  </ion-button>
+  <ion-button size="large" expand="block" shape="rounnd" (click)="gotologin()">
+    <ion-icon name="add-outline"slot="end"></ion-icon>
+    ADD
+  </ion-button>
+</div>
+</ion-card>
+</ion-content>
